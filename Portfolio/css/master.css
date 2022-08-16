@@ -1,0 +1,233 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+}
+
+h1, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+}
+
+p {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: white;
+    transition-duration: 0.3s;
+}
+
+#main {
+  height: 100vh;
+  width: 100%;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+
+}
+
+.main-text {
+  margin-top: 50%;
+  margin-left: 0;
+  text-align: right;
+  justify-self: center;
+  align-self: center;
+}
+
+.programmer-paragraph {
+  color: black;
+  -webkit-text-fill-color: white;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.main-button-box {
+  text-align: center;
+}
+
+.myButton {
+  margin-top: 10%;
+  margin-left: 10%;
+  box-shadow: 12px 12px 0px 0px #000000;
+  background-color: transparent;
+  border-radius: 20px;
+  border: 1px solid #000000;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  font-size: 18px;
+  padding: 17px 49px;
+  transition-duration: 0.3s;
+}
+
+.myButton:hover {
+  color: #289c8e;
+  border: 1px solid #289c8e;
+  box-shadow: 12px 12px 0px 0px #289c8e;
+}
+
+.myButton:active {
+  color: #289c8e;
+  border: 1px solid #289c8e;
+  box-shadow: 7px 7px 0px 0px #289c8e;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.main-image {
+  justify-content: center;
+}
+
+.photo {
+  position: absolute;
+  z-index: -2;
+  width: 45%;
+  top: 10%;
+}
+
+#skills {
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin-bottom: 2px;
+  /* height: 100vh; */
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.skills-border {
+  text-align: center;
+  border: 1px solid white;
+  margin: 0;
+  padding: 2%;
+}
+
+.skills-align {
+  display: inline-block;
+  text-align: left;
+}
+
+#skills p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+#skills h3 {
+  font-size: 2rem;
+}
+
+#projects {
+  height: 100vh;
+}
+
+.projects-title{
+    text-align: center;
+    margin: 0;
+    padding-top: 2%;
+    text-align: center;
+}
+
+#contact {
+  height: 100vh;
+  color: white;
+  background-color: black;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.contact-text {
+  justify-self: center;
+  margin-top: 30%;
+  font-size: 1.5rem;
+}
+
+
+.contact-form {
+  justify-self: center;
+  margin-top: 20%;
+}
+
+.contact-title {
+  text-align: center;
+  margin: 0;
+  padding-top: 2%;
+}
+
+#contact a:hover {
+  color: #289c8e;
+}
+
+input,textarea {
+  margin-top: 5px;
+  background-color: transparent;
+  border-radius: 20px;
+  border: 1px solid white;
+  display: inline-block;
+  color: white;
+  font-size: 18px;
+  padding: 17px 49px;
+}
+
+
+button {
+  margin-top: 5px;
+  background-color: transparent;
+  border-radius: 20px;
+  border: 1px solid white;
+  display: inline-block;
+  color: white;
+  font-size: 18px;
+  padding: 17px 49px;
+transition-duration: 0.3s;
+}
+
+button:hover {
+  color: #289c8e;
+  border: 1px solid #289c8e;
+
+}
+
+button:active {
+  color: white;
+  background-color: #289c8e;
+  border: 1px solid #289c8e;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+
+
+
+footer {
+  padding: 0.5rem 0 0.5rem 0;
+  display: block;
+  background-color: #289c8e;
+  width: 100%;
+}
+
+footer p {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}

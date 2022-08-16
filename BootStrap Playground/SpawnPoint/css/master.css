@@ -1,0 +1,77 @@
+body{
+  text-align: center;
+}
+
+.navbar{
+  background: #00000002;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.navbar-logo {
+  width: 50px;
+}
+
+#home{
+  margin:0 auto 0 auto;
+  text-align: center;
+  background-color: #0f0f0f;
+}
+
+.main-image{
+  margin: 5rem auto 5rem auto;
+  width:50%;
+}
+
+.about-button{
+  margin: auto;
+  padding-bottom: 5rem;
+}
+
+
+#about {
+  background-color: white;
+}
+
+.about-container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.about-text{
+  align-self:center;
+  padding:15rem;
+}
+
+.about-images {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 30% 40%;
+
+}
+
+.dev-cont{
+    justify-self: center;
+    position: relative;
+}
+
+.dev {
+  position: relative;
+  border-radius: 100%;
+  object-fit: cover;
+  width: 10rem;
+  height: 10rem;
+  margin: 2rem 0 2rem 0;
+  transition: 0.2s;
+}
+
+
+.dev:hover{
+  width:20rem;
+  height: 20rem;
+  border-radius: 5%;
+  background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);
+}
+
+#contact{
+  background-color: black;
+}
